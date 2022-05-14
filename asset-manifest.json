@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/todo-hooks-redux-toolkit/static/css/main.00b0d558.css",
-    "main.js": "/todo-hooks-redux-toolkit/static/js/main.cf94b646.js",
+    "main.js": "/todo-hooks-redux-toolkit/static/js/main.3d030a06.js",
     "index.html": "/todo-hooks-redux-toolkit/index.html",
     "main.00b0d558.css.map": "/todo-hooks-redux-toolkit/static/css/main.00b0d558.css.map",
-    "main.cf94b646.js.map": "/todo-hooks-redux-toolkit/static/js/main.cf94b646.js.map"
+    "main.3d030a06.js.map": "/todo-hooks-redux-toolkit/static/js/main.3d030a06.js.map"
   },
   "entrypoints": [
     "static/css/main.00b0d558.css",
-    "static/js/main.cf94b646.js"
+    "static/js/main.3d030a06.js"
   ]
 }
