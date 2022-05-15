@@ -1,13 +1,19 @@
 {
   "files": {
-    "main.css": "/todo-hooks-redux-toolkit/static/css/main.00b0d558.css",
-    "main.js": "/todo-hooks-redux-toolkit/static/js/main.3d030a06.js",
+    "main.css": "/todo-hooks-redux-toolkit/static/css/main.cf737e80.css",
+    "main.js": "/todo-hooks-redux-toolkit/static/js/main.bd54a1d9.js",
+    "static/media/kmin-logo.svg": "/todo-hooks-redux-toolkit/static/media/kmin-logo.4542966a8a83e536553156c2e446b402.svg",
+    "static/media/pen.svg": "/todo-hooks-redux-toolkit/static/media/pen.27ec406e0b4ccd1bb499a0432c66afe2.svg",
+    "static/media/edit.svg": "/todo-hooks-redux-toolkit/static/media/edit.3c70b53795b8b86b5bd469f2d48afc3b.svg",
+    "static/media/active-tick.svg": "/todo-hooks-redux-toolkit/static/media/active-tick.921a1fdabd2026669befaefa76ef5141.svg",
+    "static/media/delete.svg": "/todo-hooks-redux-toolkit/static/media/delete.6cb5c56f4741b7df8b19d4bddc880af1.svg",
     "index.html": "/todo-hooks-redux-toolkit/index.html",
-    "main.00b0d558.css.map": "/todo-hooks-redux-toolkit/static/css/main.00b0d558.css.map",
-    "main.3d030a06.js.map": "/todo-hooks-redux-toolkit/static/js/main.3d030a06.js.map"
+    "static/media/completed-tick.svg": "/todo-hooks-redux-toolkit/static/media/completed-tick.e7e7c7d9ebe806909bb6993cd160f19e.svg",
+    "main.cf737e80.css.map": "/todo-hooks-redux-toolkit/static/css/main.cf737e80.css.map",
+    "main.bd54a1d9.js.map": "/todo-hooks-redux-toolkit/static/js/main.bd54a1d9.js.map"
   },
   "entrypoints": [
-    "static/css/main.00b0d558.css",
-    "static/js/main.3d030a06.js"
+    "static/css/main.cf737e80.css",
+    "static/js/main.bd54a1d9.js"
   ]
 }
