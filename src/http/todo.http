@@ -1,0 +1,33 @@
+@baseUrl = https://kmin-ecommerce-be.herokuapp.com
+
+###
+GET  {{baseUrl}}/todo
+content-type: application/json
+
+
+###
+GET  {{baseUrl}}/todo/6278dc5cd59a640016b80be0
+content-type: application/json
+
+
+###
+POST  {{baseUrl}}/todo
+content-type: application/json
+
+{
+  "content": "Học ReactJS tại KMIN"
+}
+
+###
+PUT  {{baseUrl}}/todo/627f98043d260200166adcab
+content-type: application/json
+
+{
+  "content": "Học ReactJS tại KMIN - Update"
+}
+
+
+###
+DELETE  {{baseUrl}}/todo/6278dc5cd59a640016b80be0
+content-type: application/json
+

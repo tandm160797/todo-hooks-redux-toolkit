@@ -1,0 +1,43 @@
+@baseUrl = http://localhost:3001
+
+
+###
+POST {{baseUrl}}/auth/login
+content-type: application/json
+
+{
+  "email": "nptg@gmail.com",
+  "password": "123456"
+}
+
+
+###
+POST {{baseUrl}}/auth/register
+content-type: application/json
+
+{
+  "email": "suhd@gmail.com",
+  "password": "111111",
+  "firstName": "Hoàng Dược",
+  "lastName": "Sư",
+  "gender": "Nam",
+  "birthday": "1876/09/07",
+  "avatar": null,
+  "phone": "0868456456",
+  "address": "141/78 đảo Đào Hoa"
+}
+
+
+###
+PATCH {{baseUrl}}/auth/logout
+
+content-type: application/json
+
+
+###
+POST {{baseUrl}}/auth/refreshToken
+content-type: application/json
+
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlM2ZlZTI3Ni01NjEzLTQ5NDEtYjMxZi0yYjEwM2MxODYyNGUiOiJhNmRhZDlkYy1lYzA4LTQ1NWQtOGVkOC0yZDQ2ZTA2NzQyMmIiLCJpYXQiOjE2NDM4Nzg3MjUsImV4cCI6MTY0Mzg3ODc0MH0.uWnJm2NbAAijqO4CM1s0GnxPEURAlqfgMKxKSEtPE_0"
+}

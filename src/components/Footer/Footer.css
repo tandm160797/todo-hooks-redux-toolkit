@@ -1,0 +1,13 @@
+.footer {
+	height: var(--footer-height);
+	background-color: var(--kmin-color-1);
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer__logo {
+	width: 154px;
+	height: 64px;
+}

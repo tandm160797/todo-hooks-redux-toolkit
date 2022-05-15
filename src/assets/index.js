@@ -1,0 +1,6 @@
+export { ReactComponent as ActiveTickIcon } from './images/active-tick.svg'
+export { ReactComponent as CompletedTickIcon } from './images/completed-tick.svg'
+export { ReactComponent as DeleteIcon } from './images/delete.svg'
+export { ReactComponent as EditIcon } from './images/edit.svg'
+export { ReactComponent as KMINLogoIcon } from './images/kmin-logo.svg'
+export { ReactComponent as PenIcon } from './images/pen.svg'

@@ -1,0 +1,34 @@
+@baseUrl = https://kmin-ecommerce-be.herokuapp.com
+
+
+###
+POST {{baseUrl}}/product
+content-type: application/json
+
+{
+   	"name": "Valentino Valentina For Women",
+    "img": "https://orchard.vn/wp-content/uploads/2014/06/Untitledxx.jpg",
+    "newest": false,
+    "price": {
+        "actual": 2550000,
+        "old": 2689000
+    },
+    "colors": null,
+    "category": "Nước hoa",
+    "desc": "Giữa tháng 9 năm 2011 nhà thời trang Valentino cho ra mắt hương thơm nước hoa mới mang tên Valentina, loại nước hoa mới này được lấy cảm hứng từ các hương vị tại Rome của Italy và được phát triển trong sự hợp tác của các nhà sản xuất nước hoa Alberto Morillas và Olivier Cresp.."
+}
+
+###
+GET {{baseUrl}}/product/62125d6d7d9a5c27f1ac6093
+content-type: application/json
+
+
+###
+GET {{baseUrl}}/product?categories=Đồ chơi trẻ em&categories=Mỹ phẩm&sortByPrice=desc
+content-type: application/json
+
+
+###
+GET {{baseUrl}}/product/newest
+content-type: application/json
+

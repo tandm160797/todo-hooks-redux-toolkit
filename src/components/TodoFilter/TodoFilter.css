@@ -1,0 +1,33 @@
+.todo-filter-container {
+	margin-bottom: 16px;
+	padding: 16px;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: white;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+}
+
+.todo-filter-status span {
+	color: #777;
+	font-weight: 300;
+	text-decoration: none;
+	padding: 5px 10px;
+	border: 1px solid transparent;
+	border-radius: 10px;
+}
+
+.todo-filter-status span:hover {
+	cursor: pointer;
+}
+
+.todo-filter-status .active {
+	border: 1px solid var(--kmin-color-1);
+}
+
+.todo-filter-count {
+	color: #777;
+	font-weight: 300;
+}

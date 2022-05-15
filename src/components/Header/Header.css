@@ -1,0 +1,14 @@
+.header {
+	height: var(--header-height);
+
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.header__title {
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 57.6px;
+	color: #fff;
+}

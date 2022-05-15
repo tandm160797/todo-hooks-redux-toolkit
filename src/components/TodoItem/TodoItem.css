@@ -1,0 +1,67 @@
+.todo-item-container {
+	padding: 16px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.todo-item-container:hover .todo-item-options {
+	visibility: visible;
+}
+
+.todo-item-container:not(:last-child) {
+	border-bottom: 1px solid #ededed;
+}
+
+.todo-item-toggle {
+	width: 32px;
+	height: 32px;
+	display: block;
+	cursor: pointer;
+}
+
+.todo-item-toggle svg {
+	width: 100%;
+	height: 100%;
+}
+
+.todo-item-toggle img {
+	max-width: 100%;
+}
+
+.todo-item-content {
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 1.25;
+	padding: 0 20px;
+	flex: 1;
+}
+
+.todo-item-content.completed {
+	color: #d9d9d9;
+	text-decoration: line-through;
+}
+
+.todo-item-options {
+	flex: 0;
+	display: flex;
+	align-items: center;
+	visibility: hidden;
+}
+
+.todo-item-options .icon-btn {
+	width: 20px;
+	height: 20px;
+	display: block;
+	margin-left: 16px;
+	cursor: pointer;
+}
+
+.todo-item-options .icon-btn svg {
+	width: 100%;
+	height: 100%;
+}
+
+.todo-item-options .icon-btn img {
+	max-width: 100%;
+}

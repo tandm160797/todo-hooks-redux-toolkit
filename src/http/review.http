@@ -1,0 +1,16 @@
+
+@baseUrl = https://kmin-ecommerce-be.herokuapp.com
+
+
+GET {{baseUrl}}/review/random
+content-type: application/json
+
+###
+POST {{baseUrl}}/review
+content-type: application/json
+
+{
+  "postedBy": "6211202944cd6919221dfc78",
+  "content": "Búp bê đẹp với to hơn tưởng tượng, khớp tay cũng khá linh hoạt. Elsa tóc đẹp mặt rất đẹp quần áo xinh. Cái đèn thì kp bấm để sáng mà phải đập mạnh vào pin mới sáng:))"
+}
+
