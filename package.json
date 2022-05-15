@@ -1,5 +1,6 @@
 {
 	"name": "cra",
+	"homepage": "https://tandm160797.github.io/todo-hooks-redux-toolkit",
 	"version": "0.1.0",
 	"private": true,
 	"browserslist": {
